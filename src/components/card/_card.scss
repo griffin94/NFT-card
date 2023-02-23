@@ -1,0 +1,24 @@
+@use '../../styles/abstracts' as a;
+
+.card {
+  width: 100%;
+  max-width: 343px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 36, 59, 0) 0%,
+      rgba(19, 36, 59, 0.74) 61.98%,
+      #13243b 100%
+    ),
+    url('../../../public/images/background-mobile.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  border-radius: a.$rounding;
+  padding: 20px 24px;
+}
+
+
+@media (min-width: a.$desktop) {
+  .card {
+    padding: 24px 32px;
+  }
+}
