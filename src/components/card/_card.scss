@@ -14,11 +14,39 @@
   background-position: center top;
   border-radius: a.$rounding;
   padding: 20px 24px;
-}
 
+  & &__heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
+  }
+
+  & &__description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: -0.01em;
+    margin-top: 16px;
+  }
+}
 
 @media (min-width: a.$desktop) {
   .card {
     padding: 24px 32px;
+    max-width: 413px;
+    background: linear-gradient(
+        180deg,
+        rgba(19, 36, 59, 0) 0%,
+        rgba(19, 36, 59, 0.74) 61.98%,
+        #13243b 100%
+      ),
+      url('../../../public/images/background-desktop.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    & &__description {
+      margin-top: 24px;
+    }
   }
 }
