@@ -1,11 +1,9 @@
 @use '../components';
 @use '../pages';
+@use './abstracts' as a;
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--color-primary);
-}
-
-p {
-  color: var(--color-on-surface);
+  font-family: 'Manrope', sans-serif;
+  color: a.$body;
+  background-color: a.$background;
 }
