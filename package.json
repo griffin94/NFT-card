@@ -2,7 +2,7 @@
   "name": "vanilla-js-starter",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://griffin94.github.io/nft-card",
+  "homepage": "https://griffin94.github.io/NFT-card",
   "type": "module",
   "scripts": {
     "dev": "vite",
