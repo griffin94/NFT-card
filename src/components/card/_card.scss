@@ -16,6 +16,7 @@
   padding: 20px 24px;
 
   & &__heading {
+    margin-top: 209px;
     font-weight: 600;
     font-size: 24px;
     line-height: 33px;
@@ -28,6 +29,14 @@
     line-height: 160%;
     letter-spacing: -0.01em;
     margin-top: 16px;
+  }
+
+  & &__info {
+    margin-top: 24px;
+  }
+
+  & &__author {
+    margin-top: 20px;
   }
 }
 
@@ -45,7 +54,20 @@
     background-repeat: no-repeat;
     background-position: center top;
 
+    & &__heading {
+      margin-top: 228px;
+    }
+
     & &__description {
+      margin-top: 24px;
+      margin-right: 71px;
+    }
+
+    & &__info {
+      margin-top: 40px;
+    }
+
+    & &__author {
       margin-top: 24px;
     }
   }
