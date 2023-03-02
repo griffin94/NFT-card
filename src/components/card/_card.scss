@@ -43,37 +43,37 @@
   & &__author {
     margin-top: 20px;
   }
-}
 
-@media (min-width: a.$desktop) {
-  .card {
-    padding: 24px 32px;
-    max-width: 413px;
-    background: linear-gradient(
-        180deg,
-        rgba(19, 36, 59, 0) 0%,
-        rgba(19, 36, 59, 0.74) 61.98%,
-        #13243b 100%
-      ),
-      url('/images/background-desktop.png');
-    background-repeat: no-repeat;
-    background-position: center top;
+  @media (min-width: a.$desktop) {
+    & {
+      padding: 24px 32px;
+      max-width: 413px;
+      background: linear-gradient(
+          180deg,
+          rgba(19, 36, 59, 0) 0%,
+          rgba(19, 36, 59, 0.74) 61.98%,
+          #13243b 100%
+        ),
+        url('/images/background-desktop.png');
+      background-repeat: no-repeat;
+      background-position: center top;
 
-    & &__heading {
-      margin-top: 228px;
-    }
+      & &__heading {
+        margin-top: 228px;
+      }
 
-    & &__description {
-      margin-top: 24px;
-      margin-right: 71px;
-    }
+      & &__description {
+        margin-top: 24px;
+        margin-right: 71px;
+      }
 
-    & &__info {
-      margin-top: 40px;
-    }
+      & &__info {
+        margin-top: 40px;
+      }
 
-    & &__author {
-      margin-top: 24px;
+      & &__author {
+        margin-top: 24px;
+      }
     }
   }
 }
