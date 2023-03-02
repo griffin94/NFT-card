@@ -21,11 +21,6 @@
     font-size: 24px;
     line-height: 33px;
     color: #ffffff;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   & &__description {
@@ -34,6 +29,11 @@
     line-height: 160%;
     letter-spacing: -0.01em;
     margin-top: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   & &__info {
